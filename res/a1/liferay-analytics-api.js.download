@@ -1,0 +1,1 @@
+(function(){Liferay.Analytics=new function(a,e){this.addIntegration=a.addIntegration;this.getIntegrations=function(){return a._integrations};this.initialize=a.initialize;this.integration=e;this.track=a.track;this._impl=a;this.flush=function(f){var b=this.getIntegrations(),c;for(c in b){var d=b[c];d.flush&&d.flush(f)}}}(Liferay._analytics,Liferay._integration)})();

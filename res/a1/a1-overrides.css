@@ -1,0 +1,132 @@
+/*
+html {
+    font-size: initial;
+}
+
+body {
+    font-size: initial;
+}
+*/
+
+body.has-dockbar div.Header {
+    margin-top: 64px;
+}
+
+.container:before, .container:after {
+    content: initial;
+    display: initial;
+}
+
+section.SiteFooter .row:before, section.SiteFooter .row:after {
+     content: initial;
+     display: initial;
+}
+
+.portlet {
+    margin-bottom: 0;
+}
+
+
+.portlet .visible-interaction {
+    float: right;
+}
+.portlet .dropdown.lfr-icon-menu {z-index: 1}
+
+
+.portlet-layout.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.portlet-column.portlet-column-only {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.lfr-configurator-visibility {
+    opacity: 1 !important;
+}
+.lfr-checkbox-preselected {
+    opacity: 1 !important;
+}
+header.portlet-topper{
+    z-index: 100;
+}
+
+.separator-component-15-10{
+    max-height: 15px;
+}
+@media (max-width:468px){
+    .separator-component-15-10{
+        max-height: 10px;
+    }
+}
+
+.has-dockbar.a1-headless .headless-content{
+    margin-top: 61px;
+}
+.has-dockbar .portlet-column-content{
+    margin-top: 33px;
+}
+
+.container.third-two-thirds>.portlet-layout.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+@media ( max-width: 768px) {
+    .has-dockbar .ConnectEmail .btn-clear {
+        top: 48px !important;
+    }
+}
+.StandardHeader.push-down{
+    margin-top: 0px !important;
+}
+.portlet.loginAlias{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.ConnectEmail-dodeDock{
+    padding-top: 64px;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+
+div.user-segment-content-display-portlet .container-fluid-1280 {
+    margin: 0;
+    padding: 0;
+    max-width: initial;
+}
+
+li.has-check:empty{visibility:hidden}
+
+.MainNav-link.active>a{box-shadow:inset 0 -6px 0 -2px #da291c}
+
+html.ie .row form {width: 100%}
+
+#portlet_otp_WAR_otpportlet  .popover {border-radius: 0;box-shadow: none;color: #666;border-color: #d7d7d7;}
+
+.reskined .portlet .portlet-body .WolowitzPopupOptions.AdditionalMobile.open {
+    display: block;
+}
+
+.reskined #portlet_client_WAR_wolowitzconfigurator .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .reskined .portlet .portlet-body .woloSlider.Tariff__slider .Options-box.slider-cell {
+        width: 100%;
+    }
+}
+
+.has-dockbar .modal-administration{
+    height: 42px;
+}
+
+.width-0 {
+    width: 0px !important;
+}
