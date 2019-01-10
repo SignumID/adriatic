@@ -4,8 +4,7 @@ Adriatic: <br />
 https://signumid.github.io/presentation/adriatic.html <br />
  <br />
 IKB: <br />
-https://signumid.github.io/presentation/ikb_krediti.html <br />
-https://signumid.github.io/presentation/ikb_obrasci.html <br />
+https://signumid.github.io/presentation/ikb.html <br />
  <br />
 UCLC: <br />
 https://signumid.github.io/presentation/uclc.html <br />
