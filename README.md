@@ -1,5 +1,3 @@
-# Liste stranica
- <br />
 Adriatic: <br />
 <a href="https://signumid.github.io/presentation/adriatic.html" target="_blank">https://signumid.github.io/presentation/adriatic.html<a/> <br />
  <br />
