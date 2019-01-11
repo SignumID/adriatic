@@ -1,23 +1,23 @@
 # Liste stranica
  <br />
 Adriatic: <br />
-<a href="https://signumid.github.io/presentation/adriatic.html">a<a/> <br />
+<a href="https://signumid.github.io/presentation/adriatic.html" target="_blank">https://signumid.github.io/presentation/adriatic.html<a/> <br />
  <br />
 IKB: <br />
-https://signumid.github.io/presentation/ikb.html <br />
+<a href="https://signumid.github.io/presentation/ikb.html" target="_blank">https://signumid.github.io/presentation/ikb.html<a/><br />
  <br />
 UCLC: <br />
-https://signumid.github.io/presentation/uclc.html <br />
+<a href="https://signumid.github.io/presentation/uclc.html" target="_blank">https://signumid.github.io/presentation/uclc.html<a/><br />
  <br />
 A1: <br />
-https://signumid.github.io/presentation/a1_ponude.html <br />
-https://signumid.github.io/presentation/a1_prigovori.html <br />
+<a href="https://signumid.github.io/presentation/a1_ponude.html" target="_blank">https://signumid.github.io/presentation/a1_ponude.html<a/><br />
+<a href="https://signumid.github.io/presentation/a1_prigovori.html" target="_blank">https://signumid.github.io/presentation/a1_prigovori.html<a/><br />
  <br />
 tomato: <br />
-https://signumid.github.io/presentation/tomato_obrasci.html <br />
+<a href="https://signumid.github.io/presentation/tomato_obrasci.html" target="_blank">https://signumid.github.io/presentation/tomato_obrasci.html<a/><br />
  <br />
 Mjere: <br />
-https://signumid.github.io/presentation/mjere.html <br />
+<a href="https://signumid.github.io/presentation/mjere.html" target="_blank">https://signumid.github.io/presentation/mjere.html" target="_blank<a/><br />
  <br />
 Test: <br />
-https://signumid.github.io/presentation/test.html <br />
+<a href="https://signumid.github.io/presentation/test.html" target="_blank">https://signumid.github.io/presentation/test.html<a/><br />
