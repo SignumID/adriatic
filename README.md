@@ -1,7 +1,7 @@
 # Liste stranica
  <br />
 Adriatic: <br />
-https://signumid.github.io/presentation/adriatic.html <br />
+<a href="https://signumid.github.io/presentation/adriatic.html">a<a/> <br />
  <br />
 IKB: <br />
 https://signumid.github.io/presentation/ikb.html <br />
