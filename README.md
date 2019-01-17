@@ -15,7 +15,7 @@ tomato: <br />
 <a href="https://signumid.github.io/presentations/tomato_obrasci.html" target="_blank">https://signumid.github.io/presentations/tomato_obrasci.html<a/><br />
  <br />
 Mjere: <br />
-<a href="https://signumid.github.io/presentations/mjere.html" target="_blank">https://signumid.github.io/presentations/mjere.html" target="_blank<a/><br />
+<a href="https://signumid.github.io/presentations/mjere.html" target="_blank">https://signumid.github.io/presentations/mjere.html<a/><br />
  <br />
 Test: <br />
 <a href="https://signumid.github.io/presentations/test.html" target="_blank">https://signumid.github.io/presentations/test.html<a/><br />
