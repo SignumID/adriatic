@@ -19,3 +19,6 @@ Mjere: <br />
  <br />
 Test: <br />
 <a href="https://signumid.github.io/presentations/test.html" target="_blank">https://signumid.github.io/presentations/test.html<a/><br />
+ <br />
+Test: <br />
+<a href="https://signumid.github.io/presentations/hzmo.html" target="_blank">https://signumid.github.io/presentations/hzmo.html<a/><br />
