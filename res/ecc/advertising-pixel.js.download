@@ -1,0 +1,2 @@
+// Avertising Pixel Image Generator
+function createAdvertisingPixel(e,t){var i=new Image;i.src=e,t&&(i.title=t),i.setAttribute("width","1"),i.setAttribute("height","1"),i.style.display="none",document.head.appendChild(i)}

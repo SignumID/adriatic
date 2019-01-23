@@ -1,0 +1,96 @@
+/* Button CTA Tracking - Start */
+
+function sendButtonCTA () {
+    var ctaButtons = document.querySelectorAll('[data-tracking-cta-action]');
+    for (var i = 0; i < ctaButtons.length; i++) {
+        var data = ctaButtons[i].getAttribute('data-tracking-cta-action').trim();
+        if (data && data.indexOf('|') >= 0) {
+            var segments = data.split('|');
+            if (segments.length == 3) {
+                ctaButtons[i].addEventListener('click', function() {
+                    ga('send', 'event', segments[0], segments[2], segments[1]);
+                });
+            }
+        }
+    }
+}
+
+sendButtonCTA();
+
+/* jQuery Teaser Plugin -- Start */
+
+(function($) {
+
+    $.fn.teaser = function(options) {
+
+        var settings = $.extend({
+            selector: '.teaser__selector',
+            selectorClose: '.teaser__close',
+            speedIn : 300,
+            speedOut : 300
+        }, options);
+
+        return this.each(function() {
+
+            var teaser = $(this);
+
+            function getRightPosition() {
+                return ($(window).width() < 480) ? 0 : 30;
+            }
+
+            $(window).resize(function () {
+                getRightPosition();
+            });
+
+            $(window).scroll(function() {
+                var distance = $(settings.selector).offset().top;
+                if ($(window).scrollTop() > distance) {
+                    teaser.animate({
+                        right: getRightPosition()
+                    }, settings.speedIn);
+                } else {
+                    teaser.stop(true).animate({
+                        right: -teaser.outerWidth()
+                    }, settings.speedOut);
+                }
+            });
+
+            teaser.find(settings.selectorClose).on('click',function() {
+                teaser.stop(true).animate({
+                    right: -teaser.outerWidth()
+                }, settings.speedOut, function() {
+                    teaser.remove();
+                });
+            });
+
+        });
+
+    };
+
+})(jQuery);
+
+/* jQuery Teaser Plugin -- End */
+
+$(document).ready(function() {
+    /* Replace Registered (R) logo with superscript variant */
+    $('.superhero__headline').each(function(i, el) {
+        $(el).html(function(i, html) {
+            return html.replace(/\u00ae/g, '<sup>&reg;</sup>');
+        });
+        $(el).html(function(i, html) {
+            return html.replace(/\u00a9/g, '<sup>&copy;</sup>');
+        });
+    });
+    /* Send Page View Event on modal click */
+    $('a[href*="utm_"]').each(function() {
+        var link = $(this);
+        if (link.data('initialized-modules-modal-modal') == true) {
+            link.on('click', function() {
+                ga('send', { hitType: 'pageview', page: link.attr('href') });
+            });
+        }
+    });
+    /* Other */
+    $('.service-links__item-placeholder .service-links__link .service-links__text').text('');
+    $('head').append('<meta name="theme-color" content="#bce4fa" />');
+});

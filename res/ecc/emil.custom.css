@@ -1,0 +1,174 @@
+/* jQuery Teaser Plugin -- Start */
+
+.teaser {
+    position: fixed;
+    bottom: 0;
+    right: -100%;
+    padding: 2.5rem;
+    width: 100%;
+    text-align: left;
+    background: #f2fafe;
+    z-index: 4;
+    box-shadow: 0 0 5px rgba(88, 100, 111, 0.4);
+}
+
+@media screen and (min-width:480px) {
+    .teaser {
+        bottom: 3rem;
+        right: -100%;
+        width: 45rem;
+        text-align: left;
+        border-radius: 4px;
+        box-shadow: 0 0 5px 0 rgba(88, 100, 111, 0.4);
+    }
+}
+
+.teaser--clickable {
+    cursor: pointer;
+}
+
+.teaser__close {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.teaser__close--span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    transition: transform .25s ease-in-out;
+}
+
+.teaser__close--span:hover {
+    transform: rotate(180deg);
+}
+
+.teaser__close--span:before,
+.teaser__close--span:after {
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 2rem;
+    height: 0;
+    border-top: 2px solid #005b94;
+    transform-origin: center;
+    content: '';
+}
+
+.teaser__close--span:before {
+    transform: rotate(45deg);
+}
+
+.teaser__close--span:after {
+    transform: rotate(-45deg);
+}
+
+.teaser__image-wrapper {
+    position: relative;
+}
+
+.teaser__image {
+    float: left;
+    margin: 0.5rem 2rem 0 0;
+    width: 20%;
+}
+
+@media screen and (min-width:480px) {
+    .teaser__image {
+        width: 6rem;
+    }
+}
+
+.teaser__image--source {
+    width: 100%;
+    height: auto;
+}
+
+.teaser__content {
+    float: right;
+    width: 70%;
+}
+
+@media screen and (min-width:480px) {
+    .teaser__content {
+        width: 32rem;
+    }
+}
+
+.teaser__headline {
+    margin: 0 0 1.5rem 0;
+    padding: 0 2.5rem 0 0;
+    font: 600 1.6rem/2.2rem 'Open Sans';
+    color: #1584bc;
+}
+
+.teaser__subheadline {
+    margin: 0;
+    font: 400 1.4rem/2rem 'Open Sans';
+    color: #00497b;
+}
+
+/* jQuery Teaser Plugin -- End */
+
+
+.alert--cookie {
+    display: none;
+}
+
+.chat .links-container__item {
+    margin-top: 11px;
+}
+
+.chat__container {
+    background: rgb(240, 249, 255);
+}
+
+.chat__information {
+    padding-left: 11rem;
+}
+
+.chat__welcome {
+    padding-top:7px;
+}
+
+.leftNavigation .section__inner, .leftNavigation .textWithImage {
+    padding: 0 3rem;
+}
+
+.site-footer__box img {
+    height: 55px;
+}
+
+@media screen and (max-width: 768px) {
+    .columns .recap__item {
+        height: 100px !important;
+    }
+    .columns .recap__value {
+        font-size: 3.2rem !important;
+    }
+    .recap__title {
+    margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .chat .links-container__item {
+        display:none;
+    }
+    .chat__container {
+        border-radius: 4px;
+        margin-bottom: 1.5rem;
+    }
+}

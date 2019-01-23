@@ -1,0 +1,19 @@
+var currentDate = new Date(),
+    targetDate  = new Date('2018-05-25');
+if (currentDate >= targetDate) {
+    if (!cookie.get('ecc-consent')) cookie.remove('cookie-info');
+}
+setTimeout(function() {
+    // Cookie Alert Notice
+    var cookieAlert = document.querySelector('.alert--cookie');
+    if (!cookie.get('cookie-info') && !cookie.get('ecc-consent')) {
+        cookieAlert.style.display = 'block';
+    } else {
+        cookieAlert.style.display = 'none';
+    }
+    // Cookie Alert Button
+    var cookieButton = document.querySelector('.alert__close--cookie');
+    cookieButton.addEventListener('click', function(e) {
+        if (!cookie.get('ecc-consent')) cookie.set('ecc-consent', true, 90);
+    }, false);
+}, 1000);
